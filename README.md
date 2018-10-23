@@ -9,6 +9,8 @@
 This project is maintained by Ramotion, Inc.<br>
 We specialize in the designing and coding of custom UI for Mobile Apps and Websites.<br>
 
+Inspired by [Charles Patterson](https://dribbble.com/CharlesPatterson) [shot](https://dribbble.com/shots/3982621-InVision-Studio-Movies-app-concept)
+
 **Looking for developers for your project?**<br>
 This project is maintained by Ramotion, Inc. We specialize in the designing and coding of custom UI for Mobile Apps and Websites.
 
