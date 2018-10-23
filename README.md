@@ -77,7 +77,6 @@ present(cardSlider, animated: true, completion: nil)
 CardSlider is released under the MIT license.
 See [LICENSE](./LICENSE) for details.
 
-<br>
 
 # Get the Showroom App for iOS to give it a try
 Try more UI components like this in our iOS app. Contact us if interested.
