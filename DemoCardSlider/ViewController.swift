@@ -21,7 +21,8 @@ class ViewController: UIViewController {
 			Movie(image: #imageLiteral(resourceName: "6"), rating: 5, title: "The Big Lebowski", subtitle: "1998", description: "Jeff 'The Dude' Leboswki is mistaken for Jeffrey Lebowski, who is The Big Lebowski. Which explains why he's roughed up and has his precious rug peed on. In search of recompense, The Dude tracks down his namesake, who offers him a job. His wife has been kidnapped and he needs a reliable bagman. Aided and hindered by his pals Walter Sobchak, a Vietnam vet, and Donny, master of stupidity."),
 	]
 	
-	@IBAction func openMoviesPressed(_ sender: Any) {
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
 		let cardSlider = CardSliderViewController.with(dataSource: self)
 		cardSlider.title = "Movies"
 		present(cardSlider, animated: true, completion: nil)

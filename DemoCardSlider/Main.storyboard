@@ -17,20 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="T8L-ai-KYL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foT-lZ-rKc">
-                                <rect key="frame" x="142.5" y="318.5" width="90" height="30"/>
-                                <state key="normal" title="Open Movies"/>
-                                <connections>
-                                    <action selector="openMoviesPressed:" destination="g3R-8U-DDg" eventType="touchUpInside" id="GDY-X6-00u"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="foT-lZ-rKc" firstAttribute="centerY" secondItem="T8L-ai-KYL" secondAttribute="centerY" id="WXL-qk-VdC"/>
-                            <constraint firstItem="foT-lZ-rKc" firstAttribute="centerX" secondItem="T8L-ai-KYL" secondAttribute="centerX" id="bw8-dn-Rbn"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ePm-65-yIv"/>
                     </view>
                 </viewController>

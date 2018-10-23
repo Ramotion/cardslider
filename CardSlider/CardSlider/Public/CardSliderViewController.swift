@@ -79,10 +79,9 @@ open class CardSliderViewController: UIViewController, UIScrollViewDelegate {
 	open override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
 		titleLabel.text = title
-		DispatchQueue.main.async {
-			self.collectionView.collectionViewLayout.invalidateLayout()
-			self.prepareFirstCard()
-		}
+		self.collectionView.collectionViewLayout.invalidateLayout()
+		self.collectionView.layoutIfNeeded()
+		self.prepareFirstCard()
 	}
 	
 	private func prepareFirstCard() {
