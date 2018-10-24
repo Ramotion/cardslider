@@ -1,4 +1,5 @@
 ![header](./header.png)
+<img src="https://github.com/Ramotion/cardslider/blob/master/iOS_Card_Slider.gif" width="600" height="450" />
 <br><br/>
 
 # Card Slider
