@@ -32,7 +32,7 @@ Use [CocoaPods](https://cocoapods.org) with Podfile:
 ```
 pod 'CardSlider'
 ```
-or [Carthage](https://github.com/Carthage/Carthage) users can simply add Mantle to their `Cartfile`:
+or [Carthage](https://github.com/Carthage/Carthage) users can simply add CardSlider to their `Cartfile`:
 
 ```
 github "Ramotion/CardSlider"
