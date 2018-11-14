@@ -74,7 +74,7 @@ guard let dataSource = someObject as? CardSliderDataSource else { return }
 let cardSlider = CardSliderViewController.with(dataSource: dataSource)
 ```
 
-4) Set the title and present:
+4) Set the title and present: 
 
 ``` swift
 cardSlider.title = "Movies"
