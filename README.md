@@ -101,3 +101,4 @@ Try more UI components like this in our iOS app. Contact us if interested.
 Follow us for the latest updates<br>
 <a href="https://goo.gl/rPFpid" >
 <img src="https://i.imgur.com/ziSqeSo.png/" width="156" height="28"></a>
+
