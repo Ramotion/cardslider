@@ -1,24 +1,32 @@
-![header](./header.png)
-<img src="https://github.com/Ramotion/cardslider/blob/master/iOS_Card_Slider.gif" width="600" height="450" />
-<br><br/>
+<img src="https://github.com/Ramotion/folding-cell/blob/master/header.png">
 
-# Card Slider
+<a href="https://github.com/Ramotio/folding-cell">
+<img align="left" src="https://github.com/Ramotion/cardslider/blob/master/iOS_Card_Slider.gif" width="480" height="360" /></a>
+
+<p><h1 align="left">CARD SLIDER</h1></p>
+
+<h4>UI controller that allows you to swipe through cards with pictures.</h4>
+
+
+___
+
+
+
+<p><h6>We specialize in the designing and coding of custom UI for Mobile Apps and Websites.</h6>
+<a href="https://dev.ramotion.com?utm_source=gthb&utm_medium=repo&utm_campaign=card-slider">
+<img src="https://github.com/ramotion/gliding-collection/raw/master/contact_our_team@2x.png" width="187" height="34"></a>
+</p>
+<p><h6>Stay tuned for the latest updates:</h6>
+<a href="https://goo.gl/rPFpid" >
+<img src="https://i.imgur.com/ziSqeSo.png/" width="156" height="28"></a></p>
+<h6><a href="https://store.ramotion.com/product/iphone-x-clay-mockups?utm_source=gthb&utm_medium=special&utm_campaign=card-slider#demo">Get Free Mockup For your project →</a></h6>
+
+</br>
+
+#### Inspired by [Charles Patterson](https://dribbble.com/CharlesPatterson) [shot](https://dribbble.com/shots/3982621-InVision-Studio-Movies-app-concept)
+
 [![Twitter](https://img.shields.io/badge/Twitter-@Ramotion-blue.svg?style=flat)](http://twitter.com/Ramotion)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/Ramotion)
-
-## About
-This project is maintained by Ramotion, Inc.<br>
-We specialize in the designing and coding of custom UI for Mobile Apps and Websites.<br>
-
-Inspired by [Charles Patterson](https://dribbble.com/CharlesPatterson) [shot](https://dribbble.com/shots/3982621-InVision-Studio-Movies-app-concept)
-
-**Looking for developers for your project?**<br>
-This project is maintained by Ramotion, Inc. We specialize in the designing and coding of custom UI for Mobile Apps and Websites.
-
-<a href="https://dev.ramotion.com?utm_source=gthb&utm_medium=repo&utm_campaign=cardslider">
-<img src="https://github.com/ramotion/gliding-collection/raw/master/contact_our_team@2x.png" width="187" height="34"></a> <br>
-
-The [iPhone mockup](https://store.ramotion.com/product/iphone-x-clay-mockups?utm_source=gthb&utm_medium=special&utm_campaign=cardslider) available [here](https://store.ramotion.com?utm_source=gthb&utm_medium=special&utm_campaign=cardslider)
 
 ## Requirements
 
@@ -81,24 +89,23 @@ cardSlider.title = "Movies"
 present(cardSlider, animated: true, completion: nil)
 ```
 
-## Licence
+## 📄 License
 
-CardSlider is released under the MIT license.
+Card Slider is released under the MIT license.
 See [LICENSE](./LICENSE) for details.
 
+This library is a part of a <a href="https://github.com/Ramotion/swift-ui-animation-components-and-libraries"><b>selection of our best UI open-source projects.</b></a>
 
-# Get the Showroom App for iOS to give it a try
-Try more UI components like this in our iOS app. Contact us if interested.
+If you use the open-source library in your project, please make sure to credit and backlink to www.ramotion.com
 
-<a href="https://itunes.apple.com/app/apple-store/id1182360240?mt=8" >
+## 📱 Get the Showroom App for iOS to give it a try
+Try this UI component and more like this in our iOS app. Contact us if interested.
+
+<a href="https://itunes.apple.com/app/apple-store/id1182360240?pt=550053&ct=card-slider&mt=8" >
 <img src="https://github.com/ramotion/gliding-collection/raw/master/app_store@2x.png" width="117" height="34"></a>
 
-<a href="https://dev.ramotion.com?utm_source=gthb&utm_medium=repo&utm_campaign=cardslider">
+<a href="https://dev.ramotion.com?utm_source=gthb&utm_medium=repo&utm_campaign=card-slider">
 <img src="https://github.com/ramotion/gliding-collection/raw/master/contact_our_team@2x.png" width="187" height="34"></a>
 <br>
 <br>
-
-Follow us for the latest updates<br>
-<a href="https://goo.gl/rPFpid" >
-<img src="https://i.imgur.com/ziSqeSo.png/" width="156" height="28"></a>
 
