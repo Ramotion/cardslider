@@ -54,7 +54,11 @@ open class CardSliderViewController: UIViewController, UIScrollViewDelegate {
 	/// - Parameter dataSource: CardSliderDataSource
 	
 	public static func with(dataSource: CardSliderDataSource) -> CardSliderViewController {
-		guard let controller = UIStoryboard(name: "Main", bundle: Bundle(for: self)).instantiateInitialViewController() as? CardSliderViewController else {
+        
+        var path = Bundle(for: self).path(forResource: "CardSlider", ofType: "bundle")
+        let realBundle = Bundle(path: path!)
+        
+		guard let controller = UIStoryboard(name: "Main", bundle: realBundle).instantiateInitialViewController() as? CardSliderViewController else {
 			fatalError("Failed to initialize CardSliderViewController")
 		}
 		controller.dataSource = dataSource
