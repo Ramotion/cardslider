@@ -54,9 +54,16 @@ open class CardSliderViewController: UIViewController, UIScrollViewDelegate {
 	/// - Parameter dataSource: CardSliderDataSource
 	
 	public static func with(dataSource: CardSliderDataSource) -> CardSliderViewController {
-        guard let controller = UIStoryboard(name: "Main", bundle: Bundle(for: BundleToken.self)).instantiateInitialViewController() as? CardSliderViewController else {
+        
+        guard let resourcePath = Bundle.main.path(forResource: "CardSliderResources", ofType: "bundle"),
+            let bundle = Bundle(path: resourcePath) else {
+            fatalError("Card slider resources bundle not found")
+        }
+        
+        guard let controller = UIStoryboard(name: "Main", bundle: bundle).instantiateInitialViewController() as? CardSliderViewController else {
 			fatalError("Failed to initialize CardSliderViewController")
 		}
+        
 		controller.dataSource = dataSource
 		return controller
 	}
@@ -273,5 +280,3 @@ extension CardSliderViewController: CardsLayoutDelegate {
 		cardTitleView.transition(between: currentTitle, secondTitle: nextTitle, progress: progress)
 	}
 }
-
-private final class BundleToken {}

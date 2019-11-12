@@ -3,21 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39CEDFE2237B7ACE00610E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748C35CE2177A28E00222586 /* Main.storyboard */; };
 		748C35D02177A28E00222586 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C35C92177A28E00222586 /* Extensions.swift */; };
 		748C35D12177A28E00222586 /* CardSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C35CA2177A28E00222586 /* CardSliderCell.swift */; };
 		748C35D22177A28E00222586 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C35CB2177A28E00222586 /* RatingView.swift */; };
 		748C35D32177A28E00222586 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C35CC2177A28E00222586 /* CardTitleView.swift */; };
 		748C35D42177A28E00222586 /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C35CD2177A28E00222586 /* CardsLayout.swift */; };
-		748C35D52177A28E00222586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748C35CE2177A28E00222586 /* Main.storyboard */; };
 		748C35D72177A49F00222586 /* CardSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C35D62177A49F00222586 /* CardSliderViewController.swift */; };
 		969E76BA2178E8C200877BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969E76B92178E8C200877BF5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		39CEDFE3237B7AE000610E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7448446F21779CEF00589933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39CEDFDB237B7ABE00610E3C;
+			remoteInfo = CardSliderResources;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		39CEDFDC237B7ABE00610E3C /* CardSliderResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSliderResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CEDFDE237B7ABE00610E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7448447821779CEF00589933 /* CardSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7448447C21779CEF00589933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748C35C92177A28E00222586 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -31,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		39CEDFD9237B7ABE00610E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7448447521779CEF00589933 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39CEDFDD237B7ABE00610E3C /* CardSliderResources */ = {
+			isa = PBXGroup;
+			children = (
+				748C35CE2177A28E00222586 /* Main.storyboard */,
+				39CEDFDE237B7ABE00610E3C /* Info.plist */,
+			);
+			path = CardSliderResources;
+			sourceTree = "<group>";
+		};
 		7448446E21779CEF00589933 = {
 			isa = PBXGroup;
 			children = (
 				7448447A21779CEF00589933 /* CardSlider */,
+				39CEDFDD237B7ABE00610E3C /* CardSliderResources */,
 				7448447921779CEF00589933 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				7448447821779CEF00589933 /* CardSlider.framework */,
+				39CEDFDC237B7ABE00610E3C /* CardSliderResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,7 +100,6 @@
 		74AE256B2177B436004FC718 /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				748C35CE2177A28E00222586 /* Main.storyboard */,
 				748C35CD2177A28E00222586 /* CardsLayout.swift */,
 				748C35C92177A28E00222586 /* Extensions.swift */,
 				748C35CB2177A28E00222586 /* RatingView.swift */,
@@ -102,6 +131,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		39CEDFDB237B7ABE00610E3C /* CardSliderResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CEDFE1237B7ABE00610E3C /* Build configuration list for PBXNativeTarget "CardSliderResources" */;
+			buildPhases = (
+				39CEDFD8237B7ABE00610E3C /* Sources */,
+				39CEDFD9237B7ABE00610E3C /* Frameworks */,
+				39CEDFDA237B7ABE00610E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardSliderResources;
+			productName = CardSliderResources;
+			productReference = 39CEDFDC237B7ABE00610E3C /* CardSliderResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		7448447721779CEF00589933 /* CardSlider */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7448448021779CEF00589933 /* Build configuration list for PBXNativeTarget "CardSlider" */;
@@ -114,6 +160,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				39CEDFE4237B7AE000610E3C /* PBXTargetDependency */,
 			);
 			name = CardSlider;
 			productName = CardSlider;
@@ -129,6 +176,9 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = whatever;
 				TargetAttributes = {
+					39CEDFDB237B7ABE00610E3C = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					7448447721779CEF00589933 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1020;
@@ -149,23 +199,38 @@
 			projectRoot = "";
 			targets = (
 				7448447721779CEF00589933 /* CardSlider */,
+				39CEDFDB237B7ABE00610E3C /* CardSliderResources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		39CEDFDA237B7ABE00610E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CEDFE2237B7ACE00610E3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7448447621779CEF00589933 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				969E76BA2178E8C200877BF5 /* Assets.xcassets in Resources */,
-				748C35D52177A28E00222586 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		39CEDFD8237B7ABE00610E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7448447421779CEF00589933 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,7 +246,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		39CEDFE4237B7AE000610E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 39CEDFDB237B7ABE00610E3C /* CardSliderResources */;
+			targetProxy = 39CEDFE3237B7AE000610E3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		39CEDFDF237B7ABE00610E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 34MUF9YXTA;
+				INFOPLIST_FILE = CardSliderResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.CardSliderResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		39CEDFE0237B7ABE00610E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 34MUF9YXTA;
+				INFOPLIST_FILE = CardSliderResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.CardSliderResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		7448447E21779CEF00589933 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -361,6 +473,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		39CEDFE1237B7ABE00610E3C /* Build configuration list for PBXNativeTarget "CardSliderResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CEDFDF237B7ABE00610E3C /* Debug */,
+				39CEDFE0237B7ABE00610E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7448447221779CEF00589933 /* Build configuration list for PBXProject "CardSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

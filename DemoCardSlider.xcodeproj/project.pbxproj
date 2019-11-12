@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39CEDFE8237B7CA500610E3C /* CardSliderResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39CEDFE7237B7CA500610E3C /* CardSliderResources.bundle */; };
 		744844552176DAA100589933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744844532176DAA100589933 /* LaunchScreen.storyboard */; };
 		748C35D92177A4B400222586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C35D82177A4B400222586 /* ViewController.swift */; };
 		74AE25702177B464004FC718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AE256F2177B464004FC718 /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		39CEDFE5237B7C8D00610E3C /* CardSliderResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CardSliderResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CEDFE7237B7CA500610E3C /* CardSliderResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CardSliderResources.bundle; path = "../../../../Library/Developer/Xcode/DerivedData/Workspace-dkjtlzmjpwtrigeyodudjsvgnxrj/Build/Products/Debug-iphonesimulator/CardSliderResources.bundle"; sourceTree = "<group>"; };
 		744844472176DA9D00589933 /* DemoCardSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCardSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744844542176DAA100589933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		744844562176DAA100589933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		7448443E2176DA9D00589933 = {
 			isa = PBXGroup;
 			children = (
+				39CEDFE7237B7CA500610E3C /* CardSliderResources.bundle */,
 				744844492176DA9D00589933 /* DemoCardSlider */,
 				744844482176DA9D00589933 /* Products */,
 				7448448321779D1700589933 /* Frameworks */,
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				7448448421779D1700589933 /* CardSlider.framework */,
+				39CEDFE5237B7C8D00610E3C /* CardSliderResources.bundle */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				969E76CA2178F1F100877BF5 /* Main.storyboard in Resources */,
 				74AE25702177B464004FC718 /* Assets.xcassets in Resources */,
 				744844552176DAA100589933 /* LaunchScreen.storyboard in Resources */,
+				39CEDFE8237B7CA500610E3C /* CardSliderResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
