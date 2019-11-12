@@ -25,6 +25,7 @@ class ViewController: UIViewController {
 		super.viewDidAppear(animated)
 		let cardSlider = CardSliderViewController.with(dataSource: self)
 		cardSlider.title = "Movies"
+        cardSlider.modalPresentationStyle = .fullScreen
 		present(cardSlider, animated: true, completion: nil)
 	}
 }
