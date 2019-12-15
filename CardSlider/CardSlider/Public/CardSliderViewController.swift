@@ -55,12 +55,6 @@ open class CardSliderViewController: UIViewController, UIScrollViewDelegate {
 	
 	public static func with(dataSource: CardSliderDataSource) -> CardSliderViewController {
     
-    if let controller = UIStoryboard(name: "Main", bundle: Bundle(for: self)).instantiateInitialViewController() as? CardSliderViewController {
-      
-      controller.dataSource = dataSource
-      return controller
-    }
-    
     if let path = Bundle(for: self).path(forResource: "CardSlider", ofType: "bundle"),
     let bundle = Bundle(path: path),
     let controller = UIStoryboard(name: "Main", bundle: bundle).instantiateInitialViewController() as? CardSliderViewController {
@@ -68,6 +62,12 @@ open class CardSliderViewController: UIViewController, UIScrollViewDelegate {
       return controller
     }
     
+    if let controller = UIStoryboard(name: "Main", bundle: Bundle(for: self)).instantiateInitialViewController() as? CardSliderViewController {
+      
+      controller.dataSource = dataSource
+      return controller
+    }
+        
     fatalError("Failed to initialize CardSliderViewController")
 	}
 	
